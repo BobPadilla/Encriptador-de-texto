@@ -1,4 +1,4 @@
-const textArea = document.querySelector(".txt-area");
+ const textArea = document.querySelector(".txt-area");
 const mensaje = document.querySelector(".txt-area2");
 
 // console.log(campo-mensaje campo-texto);
@@ -58,22 +58,19 @@ function desencriptar(stringDesencriptada){
 }       
 
 
-// function bot-encriptar(){
-//     const texto = encriptar (campo_texto.value);
-//     campo-mensaje.value = texto
-   
+
+// function copiarPala(){
+//   let mensajeCopy = document.getElementById("mensaje").innerHTML;
+//   try {
+//       navigator.clipboard.writeText(mensajeCopy);
+//       alert('Contenido copiado al portapapeles');
+//     } catch (err) {
+//       console.error('Error al copiar: ', err);
+//     }      
 // }
 
-// function encriptar(fraseEncriptada){
-//     for (let i = 0 ; i < matrizcodigo.length; i++){
-//         if(fraseEncriptada.includes(matriz_code[i][0])){
-//             fraseEncriptada = fraseEncriptada.replaceAll(
-//                 matriz_code [i][0],
-//                 matriz_code [i][1]
-//             )
-
-//         }
-//     }
-//     return fraseEncriptada;
+// function asignarElemento(elemento,texto){
+//   let titulo = document.querySelector(elemento);
+//   titulo.innerHTML = texto;
 // }
-// [].length
+
